@@ -25,7 +25,7 @@ SECRET_KEY = 'qt4j^aoiw8p4*bg^4n@q^(zg4z#=jg73=lhcvtt^9e5unm!18#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','coursecentermateuszwieczorek.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -131,3 +131,4 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+django_heroku.settings(locals())
