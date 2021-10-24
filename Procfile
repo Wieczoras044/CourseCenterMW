@@ -1,1 +1,1 @@
-web: gonicorn coursecenter.wsgi
+web gunicorn coursecenter.wsgi
