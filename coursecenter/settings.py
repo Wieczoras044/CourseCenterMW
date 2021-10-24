@@ -129,5 +129,5 @@ LOGIN_REDIRECT_URL = reverse_lazy('students_course_list')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/css'),)
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
 
