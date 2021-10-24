@@ -1,0 +1,1 @@
+web: gonicorn coursecenter.wsgi
